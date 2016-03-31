@@ -1,30 +1,27 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from database_setup import
-Base,
-User,
-Activities,
-Subcategories
+from database_setup import Base
+from database_setup import User
+from database_setup import Activities
+from database_setup import Subcategories
 
 import logging
 
-from flask import Flask,
-render_template,
-request,
-redirect,
-url_for,
-flash,
-jsonify
+from flask import Flask
+from flask import render_template
+from flask import request
+from flask import redirect
+from flask import url_for
+from flask import flash
+from flask import jsonify
 
-
-from database_setup import Base,
-User,
-Activities,
-Subcategories
+from database_setup import Base
+from database_setup import User
+from database_setup import Activities
+from database_setup import Subcategories
 
 from flask import session as login_session
-
 import random
 import string
 
