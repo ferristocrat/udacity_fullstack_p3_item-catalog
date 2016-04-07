@@ -65,7 +65,7 @@
 			<div class="col-md-12">
 				<form class="navbar-form navbar-left" action="{{ url_for('activityEdit',activity_id = activity_id) }}" method = 'post'>
 					<div class="form-group">
-						<input type="text" name="name" class="form-control" placeholder="{{ activity.name }}">
+						<input type="text" name="name" class="form-control" value="{{ activity.name }}">
 						<input type="submit" value="Submit change" class="btn btn-primary">
 						<a href="{{ url_for('activityListEdit') }}"><button type="button" class="btn btn-link">Cancel</button></a>
 					</div>

@@ -1,4 +1,4 @@
-# Tournament Results
+# Item Catelog
 Udacity Full Stack Web Development - Project 3: Item Catelog
 ## Synopsis
 
@@ -20,13 +20,13 @@ This is my third in a series of projects through Udacity's **Full Stack Web Deve
 2. Clone this repository
 
 ```
-$ git clone https://github.com/Mec-iS/nanodegree-fullstack-final
+$ git clone https://github.com/ferristocrat/udacity_fullstack_p3_item-catalog.git
 ```
 
 3. Optional: Replace `client_secrets.json` with JSON from Google project
 4. Optional: If you replaced `client_secrets.json` you'll need to replace `data-clientid` on line 61 in `login.html`
 4. Launch the Vagrant VM
-	1. Open shell and navigate to vagrant folder
+	1. Open shell and navigate to vagrant folder of this repository
 	2. Type `vagrant up`
 5. SSH into the Vagrant VM
 	1. Type `vagrant ssh`
@@ -35,4 +35,4 @@ $ git clone https://github.com/Mec-iS/nanodegree-fullstack-final
 	1. Type `python database_setup.py` (Note that the database is empty by default)
 8. Run the Flask web server
 	1. Type `python application.py`
-9. In your browser visit `http://localhost:5000` to view the application (note that you will not be able to add/edit/delete items unless logged in)
+9. In your browser visit `http://localhost:8000` to view the application (note that you will not be able to add/edit/delete items unless logged in)
